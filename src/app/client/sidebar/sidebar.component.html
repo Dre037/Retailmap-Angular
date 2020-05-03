@@ -1,0 +1,20 @@
+<aside class="sidebar-map">
+    <button mat-icon-button class="close" (click)="closeSide()">
+        <mat-icon>close</mat-icon>
+    </button>
+    <img src="../../../assets/placeholder.png" alt="">
+    <h1>{{storeName}}</h1>
+    <ul>
+        <li>
+            <mat-icon>phone</mat-icon>
+            {{address}}
+        </li>
+        <li>
+            <mat-icon>mail</mat-icon>
+            {{category}}
+        </li>
+    </ul>
+    <div class="group-button">
+        <button mat-stroked-button>Visitar Loja <mat-icon>keyboard_arrow_right</mat-icon></button>
+    </div>
+</aside>

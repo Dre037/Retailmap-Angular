@@ -1,0 +1,17 @@
+<div class="wrapper">
+    <mat-form-field appearance="outline">
+        <mat-label>Busque por nome</mat-label>
+        <input type="text" matInput name="search" placeholder="Ex.: restaurante">
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+        <mat-label>Distância KM</mat-label>
+        <input type="number" matInput name="distance" placeholder="Ex.: 10">
+    </mat-form-field>
+    <button mat-icon-button>
+        <mat-icon>search</mat-icon>
+    </button>
+</div>
+<div class="container-map">
+    <div #mapContainer id="map"></div>
+</div>
+<app-sidebar [storeName]="storeName" [address]="address" [category]="category"></app-sidebar>

@@ -1,0 +1,34 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  width: calc(100% -40px);
+  mat-form-field:first-child {
+    margin-right: 10px;
+    width: 70%;
+  }
+
+  mat-form-field:last-child {
+    width: 20%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  button {
+    margin-top: 10px;
+    margin-left: 10px;
+    align-self: flex-start;
+  }
+}
+
+.container-map {
+  width: calc(100% - 40px);
+  padding: 20px;
+  height: 75vh;
+
+  #map {
+    height: 100%;
+    width: 100%;
+  }
+}
